@@ -12,6 +12,8 @@ die () {
 echo "Project directory: $PROJECT_DIR"
 echo "Target directory: $TARGET_DIR"
 
+cd $PROJECT_DIR
+
 git fetch
 
 updates=$(git log origin/main ^main|wc -l)
@@ -21,7 +23,7 @@ if [[ $? -gt 0 ]]; then
 	exit 1
 fi
 
-if [[ $updates -eq 0 ]]; then
+if [[ $updates -gt 0 ]]; then
 
 	echo "Pending changes detected."
 
