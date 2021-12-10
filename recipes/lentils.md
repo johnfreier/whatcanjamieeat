@@ -1,4 +1,5 @@
 ---
+food: lentils,water
 title: Lentils
 layout: recipes
 ---

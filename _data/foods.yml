@@ -1,7 +1,6 @@
-foods:
-  - name: egg
-  - name: sorghum
-  - name: rice
-  - name: beans
-  - name: lettuce
-  - name: lentils
+- food-name: egg
+- food-name: sorghum
+- food-name: rice
+- food-name: beans
+- food-name: lettuce
+- food-name: lentils

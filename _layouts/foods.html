@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<h1>{{ page.food-name | capitalize }}</h1>
+
+<h2>Recipes</h2>
+<hr />
+{% for p in site.pages %}
+  {% if p.food contains page.food-name %}
+  <a href="{{ p.url }}">{{ p.title }} </a>
+  {% endif %}
+{% endfor %}

@@ -23,14 +23,17 @@ if [[ $? -gt 0 ]]; then
 	exit 1
 fi
 
-if [[ $updates -gt 0 ]]; then
+if [[ $updates -gt 0 || "$1" -eq "update" ]]; then
 
 	echo "Pending changes detected."
 
+	echo "Pulling the latest from git."
 	git pull
 
+	echo "Building the site."
 	jekyll build
 
+	echo "Syncing the site files."
 	rsync -avu --delete $PROJECT_DIR/_site/ $TARGET_DIR
 
 else

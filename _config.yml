@@ -5,3 +5,12 @@ title: "" # the name of your site, e.g. ACME Corp.
 exclude:
   - "*.sh"
   - README.md
+
+#plugins:
+#  - jekyll-datapage-generator
+
+page_gen:
+  - data: 'foods'
+    template: 'foods'
+    name: 'food-name'
+    dir: 'foods'
