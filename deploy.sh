@@ -34,7 +34,7 @@ if [[ $updates -gt 0 || "$1" -eq "update" ]]; then
 	git pull
 
 	echo "Building the site."
-	jekyll build
+	/usr/local/bin/bundle exec /usr/local/bin/jekyll build
 
 	echo "Syncing the site files."
 	rsync -avu --delete $PROJECT_DIR/_site/ $TARGET_DIR
