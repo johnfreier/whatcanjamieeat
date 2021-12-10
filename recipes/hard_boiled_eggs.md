@@ -17,5 +17,5 @@ An easy recipe that takes about 20-25 mins to cook.
 4. Remove from heat and let sit for 10 mins covered.
 5. Drain water and add cold water.
 6. Let sit for another 10 mins.
-7. Done
+7. Done.
 

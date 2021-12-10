@@ -19,6 +19,8 @@ git fetch
 
 updates=$(git log origin/main ^main|wc -l)
 
+echo "Number of updates: $updates"
+
 if [[ $? -gt 0 ]]; then
 	echo "Error"
 	exit 1
