@@ -4,7 +4,7 @@ layout: recipes
 foods: eggs
 ---
 
-An easy recipe that takes about 20-25 mins to cook.
+An easy recipe that takes about 20-25 minutes to cook.
 
 Good with salt and pepper.
 
