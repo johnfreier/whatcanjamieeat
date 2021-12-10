@@ -1,6 +1,7 @@
 ---
 title: 
 layout: recipes
+foods:
 ---
 
 <!-- Add description --> 

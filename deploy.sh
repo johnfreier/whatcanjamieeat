@@ -9,6 +9,7 @@ die () {
 [[ -z "${PROJECT_DIR}" ]] && die "Project directory is not set."
 [[ -z "${TARGET_DIR}" ]] && die "Target directory is not set."
 
+echo "Running on " $(date)
 echo "Project directory: $PROJECT_DIR"
 echo "Target directory: $TARGET_DIR"
 

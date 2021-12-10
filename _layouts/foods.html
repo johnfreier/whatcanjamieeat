@@ -6,7 +6,7 @@ layout: default
 <h2>Recipes</h2>
 <hr />
 {% for p in site.pages %}
-  {% if p.food contains page.food-name %}
+  {% if p.foods contains page.food-name %}
   <a href="{{ p.url }}">{{ p.title }} </a>
   {% endif %}
 {% endfor %}
