@@ -6,6 +6,8 @@ foods: eggs
 
 An easy recipe that takes about 20-25 mins to cook.
 
+Good with salt and pepper.
+
 ### Ingredients
 - Eggs
 - Water
