@@ -21,12 +21,7 @@ updates=$(git log origin/main ^main|wc -l)
 
 echo "Number of updates: $updates"
 
-if [[ $? -gt 0 ]]; then
-	echo "Error"
-	exit 1
-fi
-
-if [[ $updates -ne "0" || "$1" -eq "update" ]]; then
+if [[ "$updates" != "0" || "$1" == "update" ]]; then
 
 	echo "Pending changes detected."
 
