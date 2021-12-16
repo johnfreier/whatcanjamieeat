@@ -26,7 +26,7 @@ if [[ $? -gt 0 ]]; then
 	exit 1
 fi
 
-if [[ $updates -gt 0 || "$1" -eq "update" ]]; then
+if [[ $updates -ne "0" || "$1" -eq "update" ]]; then
 
 	echo "Pending changes detected."
 
