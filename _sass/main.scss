@@ -3,6 +3,11 @@ h1 {
     --typography-spacing-vertical: 1rem;
 }
 
+// Pico Override - H2 bottom spacing
+h2 {
+    --typography-spacing-vertical: 1rem;
+}
+
 // Pico Override - List spacing 
 :root {
     --typography-spacing-vertical: .5rem
