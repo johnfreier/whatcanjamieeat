@@ -7,7 +7,7 @@ title: "Ingredients"
 
 Here is a list of ingredients Jamie can eat.
 
-{% assign foods = site.data.foods | sort %}
+{% assign foods = site.data.foods | sort: "food-name" %}
 {% for food in foods %}
 - [{{ food.food-name | replace: "_", " " }}](/foods/{{ food.food-name }}.html)
 {% endfor %}
