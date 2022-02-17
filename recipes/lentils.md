@@ -8,7 +8,7 @@ Lentils are an easy food to make.  It takes about as much cooking as rice.
 
 ### Ingredients
 - 1 Cup Lentils
-- 3-4 Cups of water
+- 4 Cups of water
 
 ### Instructions
 1. Add the lentils and water together in a stove pot.
