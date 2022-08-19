@@ -16,3 +16,13 @@ layout: default
   {% endif %}
 {% endfor %}
 </ul>
+
+<h2>Products</h2>
+<hr />
+<ul>
+{% for l in page.links %}
+  <li>
+    <a href="{{ l }}">{{ l }}</a>
+  </li>
+{% endfor %}
+</ul>
