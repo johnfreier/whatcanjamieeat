@@ -1,8 +1,7 @@
 ---
 layout: default
-title: "What can Jamie eat?"
 ---
 
-# {{ page.title }}
+# What can Jamie eat?
 
 This is a site dedicated to what Jamie can eat?

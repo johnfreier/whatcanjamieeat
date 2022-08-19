@@ -1,4 +1,5 @@
 - food-name: eggs
+  description: "Should try and be free range."
 - food-name: sorghum
 - food-name: rice
 - food-name: beans
