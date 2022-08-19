@@ -1,8 +1,8 @@
 - food-name: eggs
   description: "Should try and be free range."
   links:
-    - link: "http://www.lsofarm.com"
-    - link: "https://www.mercato.com/shop/valley-natural-foods/item/organic-valley-eggs-organic-free-range-large-12-pk/3317223"
+    - link: http://www.lsofarm.com
+    - link: https://www.mercato.com/shop/valley-natural-foods/item/organic-valley-eggs-organic-free-range-large-12-pk/3317223
 - food-name: sorghum
 - food-name: rice
 - food-name: beans
