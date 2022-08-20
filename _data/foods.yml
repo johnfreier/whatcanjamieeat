@@ -12,6 +12,7 @@
 - food-name: kale
 - food-name: squash
 - food-name: oil
+  description: "No vegtable oil."
 - food-name: pumpkin
 - food-name: coconut_milk
 - food-name: chia_seads
@@ -21,7 +22,6 @@
 - food-name: cinnamon
 - food-name: avocado
 - food-name: brussel_sprouts
-- food-name: quinoa
 - food-name: mung_beans
 - food-name: millet
 - food-name: potatoes
