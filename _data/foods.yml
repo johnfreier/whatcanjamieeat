@@ -15,6 +15,7 @@
   description: "No vegtable oil."
 - food-name: pumpkin
 - food-name: coconut_milk
+  description: "Plain organic coconut milk, no extras, no gums."
 - food-name: chia_seads
 - food-name: maple_syrup
 - food-name: ginger
