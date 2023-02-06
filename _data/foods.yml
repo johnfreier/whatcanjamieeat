@@ -1,33 +1,37 @@
+- food-name: avocado
+- food-name: beans
+- food-name: broccoli
+- food-name: brussel_sprouts
+- food-name: chia_seads
+- food-name: cinnamon
+- food-name: coconut_milk
 - food-name: eggs
   description: "Should try and be free range."
   links:
     - link: "http://www.lsofarm.com"
     - link: "https://www.mercato.com/shop/valley-natural-foods/item/organic-valley-eggs-organic-free-range-large-12-pk/3317223"
-- food-name: sorghum
-- food-name: rice
-- food-name: beans
-- food-name: lettuce
-- food-name: lentils
+  description: "Plain organic coconut milk, no extras, no gums."
 - food-name: fish
+- food-name: flax_seeds
+- food-name: ginger
+- food-name: honey
 - food-name: kale
-- food-name: squash
+- food-name: lentils
+- food-name: lettuce
+- food-name: maple_syrup
+- food-name: millet
+- food-name: mung_beans
+- food-name: olives
 - food-name: oil
   description: "No vegtable oil."
-- food-name: pumpkin
-- food-name: coconut_milk
-  description: "Plain organic coconut milk, no extras, no gums."
-- food-name: chia_seads
-- food-name: maple_syrup
-- food-name: ginger
-- food-name: vanilla
-- food-name: cinnamon
-- food-name: avocado
-- food-name: brussel_sprouts
-- food-name: mung_beans
-- food-name: millet
-- food-name: potatoes
-- food-name: broccoli
-- food-name: radishes
-- food-name: olives
-- food-name: salt
+- food-name: peanut_butter
 - food-name: pepper
+- food-name: potatoes
+  description: Just peanuts
+- food-name: pumpkin
+- food-name: radishes
+- food-name: rice
+- food-name: salt
+- food-name: sorghum
+- food-name: squash
+- food-name: vanilla
